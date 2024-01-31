@@ -12,6 +12,26 @@ function toRomanLazy(num) {
     "M" : 1000 
 
   }
+
+  let romanNumeralPriorityOrder = [
+    "M",
+    "D",
+    "C",
+    "L",
+    "X",
+    "V",
+    "I"
+  ]
+
+  // Iterate through roman numeral priority order
+  for (let i = 0; i < romanNumeralPriorityOrder.length; i++ ){
+
+    
+  }
+
+  // use division and Math.floor to find out how many times a given num can be divided
+
+
   return "";
 }
 
